@@ -7,7 +7,7 @@ To enable your discord to do this:
 1. Press the Windows key, and type in "%APPDATA%" and open that folder.
 2. Find and open the Discord folder in that tab.
 3. Find "settings.json" and open that with notepad or any generic text editor.
-4. Replace the text in "settings.json" with the following.
+4. Replace the text in "settings.json" with the following. Feel free to change OPEN_ON_STARTUP to true if you want your Discord to open when you turn on your computer. 
 ```json
 {
   "BACKGROUND_COLOR": "#202225",
@@ -23,8 +23,6 @@ To enable your discord to do this:
   "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true
 }
 ```
-
-4 cont. Feel free to change OPEN_ON_STARTUP to true if you want your Discord to open when you turn on your computer.
 5. Restart Discord.
 6. On Discord now, Press this combination of keys Crtl+Shift+I
 
